@@ -5,38 +5,31 @@
 }
 
 body{
-    background-color:   hsl(0, 0%, 100%);
-    background-image: url(./img/images/bg-pattern-top-desktop.svg), url(./img/images/bg-pattern-bottom-desktop.svg);
-    background-repeat: no-repeat, no-repeat;
     justify-content: center;
     align-items: center;
     display: flex;
     width: 100%;
     height: 100vh;
     font-size: 15px;
-    /* border: 1px solid red; */
 }
 .container{
-    /* background-color:   hsl(0, 0%, 100%);
+    background-color:   hsl(0, 0%, 100%);
     background-image: url(./img/images/bg-pattern-top-desktop.svg), url(./img/images/bg-pattern-bottom-desktop.svg);
-    background-repeat: no-repeat, no-repeat; */
+    background-repeat: no-repeat, no-repeat;
     padding: 5rem;
     font-family: 'League Spartan', sans-serif;
-    width: fit-content;
-    /* border: 1px solid red; */
-    
+    width: fit-content; 
 }
 
 .top-flex{
     display: flex;
-    gap: 15rem;
-    /* border: 1px solid red; */
+    gap: 14rem;  
 }
 
 .heading{
-    color:  hsl(300, 43%, 22%);
-   
+    color:  hsl(300, 43%, 22%);  
 }
+
 .paragraph{
     margin-top: 20px;
     margin-bottom: 40px;
@@ -65,7 +58,6 @@ body{
     background-position: center;
     width: 57px;
     height: 10px;
-
 }
 
 .second-rating{
@@ -74,7 +66,6 @@ body{
     align-items: center;
     margin-top: 10px;
     border-radius: 10px;
-    /* margin-right: 8px; */
     display: flex;
     gap: 10px;
     color: hsl(300, 43%, 22%);
@@ -100,7 +91,6 @@ body{
     padding: 15px;
     border-radius: 5px;
     color: hsl(300, 43%, 22%);
-    
  } 
 
  .rating-3rd{
@@ -137,6 +127,7 @@ body{
     line-height: 1rem;
     font-size: small;
 }
+
 .box-three{
     background-color: hsl(300, 43%, 22%);
     padding: 20px;
@@ -161,7 +152,6 @@ body{
 .v-three{
     color: hsl(333, 80%, 67%);
     margin-top: 2px;
-
 }
 
 .picture-one{
@@ -210,6 +200,7 @@ body{
     border: 1px solid white;
     border-radius: 50%;
 }
+
 .profile-three{
     display: flex;
     gap: 20px;
@@ -221,7 +212,6 @@ body{
     
     body{
         background-color:   hsl(0, 0%, 100%);
-        /* background-image: none; */
         background-image: url(./img/images/bg-pattern-top-desktop.svg), url(./img/images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat, no-repeat;
         background-size: cover;
@@ -229,42 +219,48 @@ body{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        width: 100%;
-        height: 120vh;
-        /* border: 1px solid blue; */
+        /* width: 100%; */
+        /* height: 120vh; */
+    } 
 
+    .container{
+        background-image: none;
+        font-family: 'League Spartan', sans-serif;
+        width: fit-content;
+        padding-right: 50px;
+        padding-left: 40px;
     }
 
     .top-flex{
         display: grid; 
         gap: 5px;
-
-    }
-
-    .container{
-        background-position: center;
-        background-size: contain;
-        /* padding: 2rem; */
-        flex-wrap: wrap;
-        font-family: 'League Spartan', sans-serif;
-        width: fit-content;
-        /* border: 1px solid red; */
-        /* margin: 0; */
-        /* height: 150vh; */
     }
 
     .heading{
         text-align: center;
     }
 
-   
-
-    .boxes{
-        display: grid;
-        grid-template-columns: none;
-        margin: 10px;
-        width: 280px;
+    .rating{
+        margin: 20px;
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        margin-left: 30px;
     }
+
+    .rating-1st{
+       margin-left: 80px;
+    }
+
+    .rating-2nd{
+        margin-left: 80px;
+    }
+
+    .rating-3rd{
+        margin-left: 80px;
+    }
+
     .first-rating{
         background-color: hsl(300, 24%, 96%);
         padding: 15px;
@@ -286,7 +282,6 @@ body{
         display: grid;
         color: hsl(300, 43%, 22%);
         position: static;
-        /* width: 200px; */
     }
 
     .third-rating{
@@ -298,6 +293,16 @@ body{
         padding: 15px;
         border-radius: 5px;
         color: hsl(300, 43%, 22%);
+    }
+
+    .boxes{
+        display: grid;
+        grid-template-columns: none;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        margin-left: 25px;
+        width: 280px;
     }
 
     .box-two{
@@ -325,20 +330,6 @@ body{
         text-align: center;
         line-height: 15px;
     } 
-    .rating{
-        margin: 20px;
-        max-width: 400px;
-    }
-    .rating-1st{
-       margin-left: 80px;
-    }
-
-    .rating-2nd{
-        margin-left: 80px;
-    }
-    .rating-3rd{
-        margin-left: 80px;
-    }
 
     .one{
         margin-left: 20px;
