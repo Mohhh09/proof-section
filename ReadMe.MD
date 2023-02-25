@@ -9,11 +9,11 @@
 - See hover states for interactive elements
 
 # Screenshot
-![screenshot](./proof%20screenshot.png)
+![screenshot](./img/images/proof%20screenshot.png)
 
 # mobile screenshot
-![screenshot 1](./mobile%20view%20screenshot%201.jpeg)
-![screenshot 2](./mobile%20view%202.jpeg)
+![screenshot 1](./img/images/mobile%20view%20screenshot%201.jpeg)
+![screenshot 2](./img/images/mobile%20view%202.jpeg)
 
 # What I learned
 
