@@ -1,6 +1,6 @@
 # **Social Proof Section**
 
-### This project is a solution to the Social Proof Section challenge on Frontend Mentor. The challenge is to build out a testimonial section with social proof, using HTML and CSS
+### This project is a solution to Frontend Mentor's Social Proof Section challenge. The goal is to create a testimonial section with social proof using HTML and CSS.
 
 # The Challenge
 
